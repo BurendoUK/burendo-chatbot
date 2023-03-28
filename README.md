@@ -47,23 +47,8 @@ python3 chat.py
 ```
 Running on local URL:  http://127.0.0.1:7860
 ```
+- Enter a question like "What is the purpose of these reports?"  
+
+The script will retrieve the most relevant document and use GPT-3 to generate an answer to the question based on the retrieved document
 
 You can track your token usage [here](https://platform.openai.com/account/usage)
-
-
-
-## Example
-
-Suppose you have a directory called documents containing the following files:
-
-report1.docx
-report2.pdf
-report3.md
-
-To use the script to answer a question about the documents, follow these steps:
-
-Set folder_path to "documents"
-Run the script with the command python document_retrieval_qa.py
-The script will launch a web interface
-Enter a question like "What is the purpose of these reports?"
-The script will retrieve the most relevant document and use GPT-3 to generate an answer to the question based on the retrieved document
